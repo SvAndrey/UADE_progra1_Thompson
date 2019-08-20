@@ -4,14 +4,14 @@ def imprimeCositos(filas):
     for i in range(filas):
         for i in range(largo):
             print("*", end="")
-        print("\n")
+        print()
     #parte 2
     largo=2
     for i in range(filas):
         for i in range(largo):
             print("*", end="")
         largo += 2
-        print("\n")
+        print()
 
 
 imprimeCositos(5)
